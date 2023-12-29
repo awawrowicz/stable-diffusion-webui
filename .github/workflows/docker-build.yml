@@ -24,15 +24,15 @@ jobs:
       matrix:
         base:
           - "pytorch"
-          - "jupyter-pytorch"
+#          - "jupyter-pytorch"
         python:
           - "3.10"
         pytorch:
-          - "2.0.1"
+#          - "2.0.1"
           - "2.1.1"
         cuda:
           - "11.8.0"
-          - "12.1.0"
+#          - "12.1.0"
         level:
           - "base"
         exclude:
